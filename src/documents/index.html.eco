@@ -60,7 +60,7 @@ title: 'Home'
 					<div style="position: absolute; left: -5000px;"><input type="text" name="b_8e9b64fcc72728847ad16e068_6dbc7ff1dd" tabindex="-1" value=""></div>
 					<div class="clear">
 						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-						<sub><i>While you’re reading this our beta is already going viral. Hurry up and claim your spot!</i></sub>
+						<!-- <sub><i>While you’re reading this our beta is already going viral. <br/>Hurry up and claim your spot!</i></sub> -->
 					</div>
 				</form>
 				</div>
