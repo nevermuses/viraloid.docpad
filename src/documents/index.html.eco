@@ -11,11 +11,11 @@ title: 'Home'
 					<!-- Fading text. See core.js for list of words. -->
 					<!-- <p class="large">We're the X of <span id="words"></span></p> -->
 
+					
 					<!-- Static text -->
 					<p class="medium">Don’t live a little, live viral.</p>
 					<p class="small">
-						Enter your e-mail below for an exclusive Viraloid beta invite. <br/>
-						While you’re reading this our beta is already going viral. Hurry up and claim your spot! (small below sign up form)
+						Enter your e-mail below for an exclusive Viraloid beta invite.
 					</p>
 				</div>
 				<div class="details right">
@@ -58,7 +58,10 @@ title: 'Home'
 						<div class="response" id="mce-success-response" style="display:none"></div>
 					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 					<div style="position: absolute; left: -5000px;"><input type="text" name="b_8e9b64fcc72728847ad16e068_6dbc7ff1dd" tabindex="-1" value=""></div>
-					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					<div class="clear">
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+						<sub><i>While you’re reading this our beta is already going viral. Hurry up and claim your spot!</i></sub>
+					</div>
 				</form>
 				</div>
 				<script type="text/javascript">
