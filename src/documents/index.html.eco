@@ -5,7 +5,10 @@ title: 'Home'
 
 	<header id="head">
 		<div class="inner">
-			<a href="#" class="logotext square"><h1>Viraloid</h1></a>
+			<a href="#" class="logotext square">
+				<!-- <h1>Viraloid</h1> -->
+				<img src="../images/logo.png" alt="viraloid logo"/>
+			</a>
 			<div class="details left">
 				<div class="message">
 					<!-- Fading text. See core.js for list of words. -->
@@ -47,10 +50,11 @@ title: 'Home'
 				<div id="mc_embed_signup">
 				<form action="http://viraloid.us8.list-manage.com/subscribe/post?u=8e9b64fcc72728847ad16e068&amp;id=6dbc7ff1dd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter validate" id="subscribe" target="_blank" novalidate>
 
-				<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+				<!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
 				<div class="mc-field-group">
-					<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-				</label>
+					<!-- <label for="mce-EMAIL">
+						Email Address  <span class="asterisk">*</span>
+					</label> -->
 					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 				</div>
 					<div id="mce-responses" class="clear">
@@ -328,7 +332,7 @@ title: 'Home'
 				</ul>
 				-->
 				<div class="copyright">
-					<p>&copy; <%- (new Date()).getFullYear() %> Viraloid LTD.</p>
+					<p>&copy; <%- (new Date()).getFullYear() %> Viraloid LTD &mark; </p>
 					<p>All Rights Reserved.</p>
 				</div>
 			</div><!-- .footer -->

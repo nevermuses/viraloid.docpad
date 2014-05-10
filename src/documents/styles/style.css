@@ -258,12 +258,14 @@ html, body {
 		display:inline-block;
 	}
 
-.logotext.square h1 {
-	font-size:40px;
+/* .logotext.square h1, */ .logotext.square img {
+	width: 271px;
+	font-size:71px;
 	display:inline-block;
 	font-weight:bold;
 	font-family: 'neosansblack', arial;
-	padding:100px 40px 0;
+	padding:100px 0 0;
+	margin: 16px 0 0 0;
 	font-weight:bold;
 	color:#fff;
     cursor:pointer;
