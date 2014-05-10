@@ -14,7 +14,6 @@ title: 'Home'
 					<!-- Fading text. See core.js for list of words. -->
 					<!-- <p class="large">We're the X of <span id="words"></span></p> -->
 
-					
 					<!-- Static text -->
 					<p class="medium">Don’t live a little, live viral.</p>
 					<p class="small">
