@@ -15,9 +15,9 @@ title: 'Home'
 					<!-- <p class="large">We're the X of <span id="words"></span></p> -->
 
 					<!-- Static text -->
-					<p class="medium">Don’t live a little, live viral.</p>
+					<p class="medium">don’t live a little, live viral</p>
 					<p class="small">
-						Enter your e-mail below for an exclusive Viraloid beta invite.
+						Enter your e-mail below for an exclusive Viraloid beta invite:
 					</p>
 				</div>
 				<div class="details right">
@@ -54,7 +54,7 @@ title: 'Home'
 					<!-- <label for="mce-EMAIL">
 						Email Address  <span class="asterisk">*</span>
 					</label> -->
-					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" autofocus>
 				</div>
 					<div id="mce-responses" class="clear">
 						<div class="response" id="mce-error-response" style="display:none"></div>
@@ -294,32 +294,8 @@ title: 'Home'
 								Don't worry if you're not the competitor type, it's okay to only browse through videos, nominate your friends for challenges, and vote for the videos you like the best. 
 							</p>
 						</li>
-						<!--
-						<li>
-							<div class="hexagon"><span class="edit"></span></div>
-							<p>
-								<strong>Easily Customisable</strong>
-								Goodbye, friends. I never thought I'd die like this. But I always really hoped. Why am I sticky and naked? Did I miss something fun?
-							</p>
-						</li>
-						<li>
-							<div class="hexagon"><span class="comments"></span></div>
-							<p>
-								<strong>Awesome App</strong>
-								When I catch you, I'm gonna pull out your eyes and shove 'em down your pants so you can watch me kick the crap outta you, okay? Then I'm gonna use your tongue to paint my boat!
-							</p>
-						</li>
-						<li>
-							<div class="hexagon"><span class="draw"></span></div>
-							<p>
-								<strong>Landing Page</strong>
-								Enough about your promiscuous mother, Hermes! We have bigger problems. Oh God, what have I done? You seem malnourished. Are you suffering from intestinal parasites.
-							</p>
-						</li>
-						-->
 					</ul>
 				</div>
-
 			</div>
 
 			<div class="footer">
@@ -331,7 +307,7 @@ title: 'Home'
 				</ul>
 				-->
 				<div class="copyright">
-					<p>&copy; <%- (new Date()).getFullYear() %> Viraloid LTD &mark; </p>
+					<p>&copy; <%- (new Date()).getFullYear() %> Viraloid LTD</p>
 					<p>All Rights Reserved.</p>
 				</div>
 			</div><!-- .footer -->

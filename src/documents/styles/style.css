@@ -281,7 +281,6 @@ html, body {
 }
 
 #head .details.left {
-	margin-top:30px;
 }
 
 #head .details.right {
@@ -309,13 +308,16 @@ html, body {
 
 #head .message p.medium {
 	font-size:22px;
+	margin: 0 0 0 54px;
 	letter-spacing: 1px;
+	font-family: 'neosansblack', arial;
 }
 
 #head .message p.small {
 	font-size:16px;
 	line-height:24px;
 	font-weight:normal;
+	margin: 49px 0 0 0;
 }
 
 #head .calltoaction {
@@ -332,6 +334,12 @@ html, body {
 	border:none;
 }
 
+#mce-success-response{
+	color: #fff !important;
+}
+#mc_embed_signup div.response{
+	margin: 0.5em 0 2em !important;
+}
 .calltoaction a:after {
 	font-family:icon;
 	content:"\E758";
