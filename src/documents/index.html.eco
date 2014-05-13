@@ -5,7 +5,7 @@ title: 'Home'
 
 	<header id="head">
 		<div class="inner">
-			<a href="#" class="logotext square">
+			<a class="logotext square">
 				<!-- <h1>Viraloid</h1> -->
 				<img src="https://googledrive.com/host/0B92YJK5CJQemNHdJYksyZXBTekk/logo.png" alt="viraloid logo"/>
 			</a>
