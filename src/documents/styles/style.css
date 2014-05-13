@@ -179,7 +179,7 @@ body .primary-button {
 	padding:0 20px;
 	width: 90%;
 	margin:0 auto;
-	max-width: 1080px; 
+	max-width: 1080px;
 }
 
 /* The styling of selected (highlighted) text */
@@ -626,6 +626,7 @@ body .primary-button {
 .features {
 	font-size:0;
 	width: 100%;
+	padding: 0 0 0 13px;
 }
 
 .features li {
