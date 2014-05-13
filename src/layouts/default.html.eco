@@ -36,6 +36,10 @@
 
 	<!-- Styles -->
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="styles/ie.css">
+	<![endif]-->
 	
 </head>
 <body>

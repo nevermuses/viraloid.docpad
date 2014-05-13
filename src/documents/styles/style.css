@@ -6,7 +6,9 @@
 ::selection{background:#ff7878;color:#fff;text-shadow:none}
 
 body {
+	width: 100%;
 	margin: 0 auto;
+	overflow-x: hidden;
 	line-height: 1.7em;
 }
 
@@ -38,12 +40,13 @@ body .primary-button {
 	padding: 10px 33px 10px 0 !important;
 }
 #mc_embed_signup .button{
+	outline: orange;
 	background-color: #ff6326 !important;
 	border: 2px solid #fff !important;
 	border-radius: none !important;
 	color: #fff !important;
 	height: 51px !important;
-	margin: -10px -15px 0 0 !important;
+	margin: -12px -15px 0 0 !important;
 	border-top-right-radius: 11px !important;
 	border-bottom-right-radius: 11px !important;
 	position: absolute;
@@ -544,8 +547,6 @@ html, body {
 .body {
 	font-family: 'Open Sans', sans-serif;
 	color:#0b0a08;
-	display:block;
-	width:100%;
 }
 
 .body .inner {
@@ -906,4 +907,23 @@ hr {
 
 .copyright a:hover {
 	color:#eb4141;
+}
+
+@media (max-width: 979px){
+	.right{
+		display: none !important;
+	}
+	#mc_embed_signup{
+		width: 83.3333333%;
+	}
+	.inner{
+		padding: 0 15px;
+	}
+	.features li{
+		width: 261px;
+	}
+	#head .message p.small{
+		width: 362px;
+		font-size: 13px;
+	}
 }

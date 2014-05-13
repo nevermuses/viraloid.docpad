@@ -3,13 +3,13 @@ layout: 'default'
 title: 'Home'
 ---
 
-	<header id="head">
-		<div class="inner">
+	<header id="head" class="pure-g-r">
+		<div class="inner pure-u-1">
 			<a class="logotext square">
 				<!-- <h1>Viraloid</h1> -->
 				<img src="https://googledrive.com/host/0B92YJK5CJQemNHdJYksyZXBTekk/logo.png" alt="viraloid logo"/>
 			</a>
-			<div class="details left">
+			<div class="details left pure-u-1-2">
 				<div class="message">
 					<!-- Fading text. See core.js for list of words. -->
 					<!-- <p class="large">We're the X of <span id="words"></span></p> -->
@@ -20,7 +20,7 @@ title: 'Home'
 						Enter your e-mail below for an exclusive Viraloid beta invite:
 					</p>
 				</div>
-				<div class="details right">
+				<div class="details right pure-u-1-2">
 					<span class="big-v">
 						V
 					</span>
@@ -264,7 +264,7 @@ title: 'Home'
 		</div>
 
 	</header>
-	<section class="body">
+	<section class="body pure-g-r">
 		<div class="inner">
 			<div id="extra">
 				<div class="block">
@@ -272,22 +272,22 @@ title: 'Home'
 					<h2 class="heading"><span class="left"><strong>X App Features</strong></span></h2>
 					<p class="small">We're also Santa Claus! Oh God, what have I done? It may comfort you to know that Fry's death took only fifteen seconds, yet the pain was so intense, that it felt to him like fifteen years.</p>
 					-->
-					<ul class="features">
-						<li>
-							<div class="hexagon"></div>
+					<ul class="features pure-u-1">
+						<li class="pure-u-1-3">
+							<div class="hexagon pure-u-1-3"></div>
 							<p>
 								<strong>Challenge Yourself</strong>
 								Be adventurous - try something new and enter a challenge initiated by a brand through Viraloid. Finally a social platform where you can embrace your inner competitor!
 							</p>
 						</li>
-						<li>
+						<li class="pure-u-1-3">
 							<div class="hexagon"></div>
 							<p>
 								<strong>Win A Little Something</strong>
 								It's not only entertaining, but also rewarding. Enter any number of challenges created by renown brands and increase your chance of winning prizes. Feel free to play around!
 							</p>
 						</li>
-						<li>
+						<li class="pure-u-1-3">
 							<div class="hexagon"></div>
 							<p>
 								<strong>Keep Up with the Hype</strong>
@@ -298,7 +298,7 @@ title: 'Home'
 				</div>
 			</div>
 
-			<div class="footer">
+			<div class="footer pure-g-r">
 				<!--
 				<ul class="social">
 					<li class="twitter"><a href="#">Twitter</a></li>
@@ -306,7 +306,7 @@ title: 'Home'
 					<li class="linkedin"><a href="#">Linkedin</a></li>
 				</ul>
 				-->
-				<div class="copyright">
+				<div class="copyright pure-u-1">
 					<p>&copy; <%- (new Date()).getFullYear() %> Viraloid LTD</p>
 					<p>All Rights Reserved.</p>
 				</div>
