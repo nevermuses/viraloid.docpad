@@ -38,6 +38,7 @@ body .primary-button {
 }
 
 #mc_embed_signup form{
+	width: 66.6666666%;
 	padding: 10px 33px 10px 0 !important;
 }
 #mc_embed_signup .button{
@@ -52,7 +53,7 @@ body .primary-button {
 	border-bottom-right-radius: 11px !important;
 	position: absolute;
 	top: 22px;
-	right: 198px;
+	right: 0;
 }
 
 .splash {
@@ -475,7 +476,6 @@ body .primary-button {
 
 
 #head .newsletter .email {
-	width: 44%;
 	padding: 13px 10px 12px;
 	border-radius:10px;
 	color: #9a9a9a;
@@ -483,7 +483,7 @@ body .primary-button {
 	border-right:2px solid #fff;
 	border-bottom:2px solid #fff;
 	font-size:18px;
-	padding-right:130px;
+	padding-right:49px;
 	-moz-box-shadow:inset 0 2px 2px 2px #f7f7f7;-o-box-shadow:inset 0 2px 2px 2px #f7f7f7;-webkit-box-shadow:inset 0 2px 2px 2px #f7f7f7;box-shadow:inset 0 2px 2px 2px #f7f7f7;
 }
 
@@ -905,8 +905,11 @@ hr {
 }
 
 @media (max-width: 979px){
+	#mc_embed_signup form{
+		width: 82%;
+	}
 	#mc_embed_signup .button{
-		right: 98px;
+		right: -4px;
 	}
 	.right{
 		display: none !important;
@@ -918,10 +921,16 @@ hr {
 		width: 261px;
 	}
 	#head .message p.small{
-		width: 362px;
 		font-size: 13px;
+	}
+	#head .message p.medium{
+		margin: 0 0 0 23px;
+		font-size: 19px;
 	}
 	.left{
 		width: 100%;
+	}
+	.features{
+		padding: 0;
 	}
 }
