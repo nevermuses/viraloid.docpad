@@ -179,6 +179,7 @@ body .primary-button {
 	padding:0 20px;
 	width: 90%;
 	margin:0 auto;
+	max-width: 1080px; 
 }
 
 /* The styling of selected (highlighted) text */
