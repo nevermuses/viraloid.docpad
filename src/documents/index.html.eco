@@ -47,7 +47,7 @@ title: 'Home'
 					   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 				</style>
 				<div id="mc_embed_signup">
-				<form action="http://viraloid.us8.list-manage.com/subscribe/post?u=8e9b64fcc72728847ad16e068&amp;id=6dbc7ff1dd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter validate" id="subscribe" target="_blank" novalidate>
+				<form action="http://viraloid.us8.list-manage.com/subscribe/post?u=8e9b64fcc72728847ad16e068&amp;id=6dbc7ff1dd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter validate pure-u-1" id="subscribe" target="_blank" novalidate>
 
 				<!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
 				<div class="mc-field-group">
@@ -274,7 +274,7 @@ title: 'Home'
 					-->
 					<ul class="features pure-u-1">
 						<li class="pure-u-1-3">
-							<div class="hexagon pure-u-1-3"></div>
+							<div class="hexagon"></div>
 							<p>
 								<strong>Challenge Yourself</strong>
 								Be adventurous - try something new and enter a challenge initiated by a brand through Viraloid. Finally a social platform where you can embrace your inner competitor!
