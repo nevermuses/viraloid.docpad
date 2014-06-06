@@ -196,6 +196,7 @@ body .primary-button {
 	width:100%;
 	height:600px;
 	color:#fff;
+	/* box-shadow: 3px 3px 33px rgba(0, 0, 0, 0.33); */
 
 	/* Set this for a static image header background
 	background:url('../img/slider/8.jpg');
@@ -704,6 +705,56 @@ body .primary-button {
 .hexagon .stats:before { content:"\1F30" }
 .hexagon .edit:before { content:"\2699" }
 
+.hex-btn-space{
+	background: #fff;
+	position: relative;
+	text-align: center;
+	margin: -40px auto 0 auto;
+	width: 170px;
+	height: 64px;
+}
+	.hex-btn-space.hexagon:before{
+		border-bottom: 48px solid #fff !important;
+		top: -48px;
+		border-left: 85px outset transparent;
+		border-right: 85px outset transparent;
+	}
+	.hex-btn-space.hexagon:after{
+		border-top: 48px solid #fff !important;
+		bottom: -48px;
+		border-left: 85px outset transparent;
+		border-right: 85px outset transparent;
+	}
+
+.hex-btn{
+	color: #fff;
+	font-weight: bold;
+	background: #ff6326;
+	position: absolute;
+	text-align: center;
+	margin: 13px auto 0 15px;
+	width: 140px;
+	height: 54px;
+}
+	.hex-btn.hexagon:before{
+		border-bottom: 43px solid #ff6326 !important;
+		top: -43px;
+		border-left: 70px outset transparent;
+		border-right: 70px outset transparent;
+	}
+	.hex-btn.hexagon:after{
+		border-top: 43px solid #ff6326 !important;
+		bottom: -40px;
+		border-left: 70px outset transparent;
+		border-right: 70px outset transparent;
+		position: absolute;
+		z-index: 1;
+	}
+.hex-btn span{
+	margin: 11px auto 0 auto;
+	display: block;
+	font-size: 14px;
+}
 
 /* Contact
 ================================================== */
