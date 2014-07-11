@@ -21,9 +21,13 @@ title: 'Home'
 					</p>
 				</div>
 				<div class="details right pure-u-1-2">
+					<iframe src="//player.vimeo.com/video/98048800?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+					<!--
 					<span class="big-v">
 						V
 					</span>
+				  -->
 				</div>
 
 				<!-- <div class="calltoaction">
@@ -266,8 +270,8 @@ title: 'Home'
 
 	</header>
 	
-	<div class="hexagon hex-btn-space"> <div class="hexagon hex-btn"> <span>HOW IT WORKS</span>  </div> </div>
-
+	<!-- <div class="hexagon hex-btn-space"> <div class="hexagon hex-btn"> <span>HOW IT WORKS</span>  </div> </div>
+  -->
 	<section class="body pure-g-r">
 		<div class="inner">
 			<div id="extra">
@@ -317,13 +321,16 @@ title: 'Home'
 		</div>
 	</section>
   
+  <!-- Animation -->
+  <!--
   <div class="pure-g-r infographic">
     <div class="pure-u-1 stage-one">
-      <!-- <span class="diamond"> </div> -->
+       <span class="diamond"> </div>
       <span class="step">
         <h3> Step 1</h3>
         <h2>Register</h2>
       </span>
-      <%- @partial("stageone") %>
     </div>
   </div>
+  -->
+  <!-- Animation end -->

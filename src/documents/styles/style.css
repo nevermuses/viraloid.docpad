@@ -14,6 +14,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+a{
+  color: darkorange;
+}
+
 .l-box {
 	padding: 1em;
 }
@@ -757,6 +761,9 @@ body .primary-button {
 .hexagon .stats:before { content:"\1F30" }
 .hexagon .edit:before { content:"\2699" }
 
+.hide{
+  display: none;
+}
 .edgeLoad-EDGE-8740435547 { visibility:hidden; }
 #Stage1{opacity: 0;}
 .orange-body{
@@ -977,6 +984,10 @@ body .primary-button {
 .social{
 	list-style: none;
 	display: inline-flex;
+	text-align: center;
+  margin: auto;
+  padding: 0;
+  letter-spacing: .3px;
 }
 	.social li{
 		padding: 0 13px;
