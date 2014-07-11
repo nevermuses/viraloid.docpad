@@ -303,13 +303,11 @@ title: 'Home'
 			</div>
 
 			<div class="footer pure-g-r">
-				<!--
 				<ul class="social">
-					<li class="twitter"><a href="#">Twitter</a></li>
-					<li class="facebook"><a href="#">Facebook</a></li>
-					<li class="linkedin"><a href="#">Linkedin</a></li>
+					<li class="twitter"><a href="https://twitter.com/viraloidapp">Twitter</a></li>
+					<!-- <li class="facebook"><a href="#">Facebook</a></li>
+					<li class="linkedin"><a href="#">Linkedin</a></li> -->
 				</ul>
-				-->
 				<div class="copyright pure-u-1">
 					<p>&copy; <%- (new Date()).getFullYear() %> Viraloid LTD</p>
 					<p>All Rights Reserved.</p>
@@ -318,3 +316,14 @@ title: 'Home'
 
 		</div>
 	</section>
+  
+  <div class="pure-g-r infographic">
+    <div class="pure-u-1 stage-one">
+      <!-- <span class="diamond"> </div> -->
+      <span class="step">
+        <h3> Step 1</h3>
+        <h2>Register</h2>
+      </span>
+      <%- @partial("stageone") %>
+    </div>
+  </div>

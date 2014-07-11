@@ -6,6 +6,7 @@
 ::selection{background:#ff7878;color:#fff;text-shadow:none}
 
 body {
+  transition: 1s;
 	width: 100%;
 	margin: 0 auto;
 	overflow-x: hidden;
@@ -16,6 +17,57 @@ body {
 .l-box {
 	padding: 1em;
 }
+
+.infographic{
+  margin: auto;
+  width: 57%;
+}
+
+.step{
+  letter-spacing: .7px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  background: url(https://903feaae1c7e592237e0bc369dc6137e49fc9935.googledrive.com/host/0B9LVk4xbDIJTVm5ZS2w1cFZnbjg/diamond-grad.svg) 32px 32px no-repeat;
+  height: 144px;
+  width: 222px;
+  display: block;
+  margin: -13px auto -63px auto;
+}
+
+.step h2{}
+.step h3{}
+
+.diamond {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom-color: red;
+	position: relative;
+	top: -50px;
+}
+.diamond:after {
+	content: '';
+	position: absolute;
+	left: -50px;
+	top: 50px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top-color: red;
+}
+
+.Stage1{
+  text-align: center;
+  margin: auto;
+}
+.stage-one{
+  margin: 55px auto 122px;
+  text-align: center;
+}
+  .stage-one span{
+    color: #fff;
+  }
 
 .header {
 	margin: 0 0;
@@ -705,13 +757,33 @@ body .primary-button {
 .hexagon .stats:before { content:"\1F30" }
 .hexagon .edit:before { content:"\2699" }
 
+.edgeLoad-EDGE-8740435547 { visibility:hidden; }
+#Stage1{opacity: 0;}
+.orange-body{
+  background: rgb(234, 99, 45);
+}
+.how-hex{
+  margin: -9px auto 0 auto !important;
+  background: rgb(234, 99, 45) !important;
+}
+  .how-hex:before{
+    
+  }
+  .how-hex:after{
+    
+  }
 .hex-btn-space{
+  transition: 1s;
 	background: #fff;
 	position: relative;
 	text-align: center;
 	margin: -40px auto 0 auto;
 	width: 170px;
 	height: 64px;
+	cursor: pointer;
+  display: block;
+  height: 108px;
+  z-index: 3;
 }
 	.hex-btn-space.hexagon:before{
 		border-bottom: 48px solid #fff !important;
@@ -721,7 +793,7 @@ body .primary-button {
 	}
 	.hex-btn-space.hexagon:after{
 		border-top: 48px solid #fff !important;
-		bottom: -48px;
+		bottom: -4px;
 		border-left: 85px outset transparent;
 		border-right: 85px outset transparent;
 	}
