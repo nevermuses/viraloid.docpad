@@ -5,7 +5,7 @@ title: 'Home'
 
 	<header id="head" class="pure-g-r">
 		<div class="inner pure-u-1">
-			<a class="logotext square">
+			<a class="logotext square" href="/">
 				<!-- <h1>Viraloid</h1> -->
 				<img src="https://googledrive.com/host/0B92YJK5CJQemNHdJYksyZXBTekk/logo.png" alt="viraloid logo"/>
 			</a>
@@ -22,7 +22,6 @@ title: 'Home'
 				</div>
 				<div class="details right pure-u-1-2">
 					<iframe src="//player.vimeo.com/video/98048800?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 					<!--
 					<span class="big-v">
 						V
@@ -30,11 +29,13 @@ title: 'Home'
 				  -->
 				</div>
 
-				<!-- <div class="calltoaction">
+				<!-- 
+				<div class="calltoaction">
 			      <a href="#">Download</a>
 			      <p class="top">click to begin</p>
 			      <p class="bottom">1.2MB .zip</p>
-			    </div> -->
+        </div>
+        -->
 
 				<!-- Newsletter -->
 				<!--
@@ -308,7 +309,9 @@ title: 'Home'
 
 			<div class="footer pure-g-r">
 				<ul class="social">
-					<li class="twitter"><a href="https://twitter.com/viraloidapp">Twitter</a></li>
+					<li class="twitter"><a href="https://twitter.com/viraloidapp">
+					  <%- @partial("twitter-icon") %>
+					</a></li>
 					<!-- <li class="facebook"><a href="#">Facebook</a></li>
 					<li class="linkedin"><a href="#">Linkedin</a></li> -->
 				</ul>

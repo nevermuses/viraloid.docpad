@@ -18,6 +18,13 @@ a{
   color: darkorange;
 }
 
+.twitter-svg{
+  width: 33px;
+}
+  #twitter-icon{
+    fill: #ff6326;
+  }
+
 .l-box {
 	padding: 1em;
 }
@@ -356,7 +363,7 @@ body .primary-button {
 
 #head .details.right {
 	position:absolute;
-	top:150px;
+	top:122px;
 	right:0;
 }
 
