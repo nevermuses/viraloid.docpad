@@ -67,16 +67,19 @@ a{
 	border-top-color: red;
 }
 
-.Stage1{
-  text-align: center;
-  margin: auto;
-}
 .stage-one{
   margin: 55px auto 122px;
   text-align: center;
 }
   .stage-one span{
     color: #fff;
+  }
+  .scroll{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 745px;
+    margin: 399px 0 0 0;
   }
 
 .header {
@@ -770,15 +773,14 @@ body .primary-button {
 .hide{
   display: none;
 }
-.edgeLoad-EDGE-8740435547 { visibility:hidden; }
-#Stage1{opacity: 0;}
+
 .orange-body{
   background: rgb(234, 99, 45);
 }
 .how-hex{
   margin: -9px auto 0 auto !important;
   background: rgb(234, 99, 45) !important;
-  position: fixed# !important;
+  position: fixed !important;
   left: 44%;
 }
   .how-hex:before{

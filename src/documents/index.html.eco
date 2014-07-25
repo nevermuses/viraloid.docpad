@@ -102,14 +102,11 @@ title: 'Home'
   <!-- Animation -->
   <div class="pure-g-r infographic">
     <div class="pure-u-1 stage-one">
-      <!--
-      <span class="diamond"> </div>
+      <!-- <span class="diamond"> </div>
       <span class="step">
-        <h3> Viraloid </h3>
-        <h2> how it works </h2>
-      </span>
-      -->
+      </span> -->
       <%- @partial("edge-stage") %>
+        <h3 class="scroll"> scroll </h3>
     </div>
   </div>
   <!-- Animation end -->
