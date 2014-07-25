@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 ::-webkit-scrollbar{width:17px;background:#fcfcfc}
 ::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.2)}
 ::-webkit-scrollbar-thumb{background:rgba(102,51,0,0.2);-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.2)}
@@ -779,6 +778,8 @@ body .primary-button {
 .how-hex{
   margin: -9px auto 0 auto !important;
   background: rgb(234, 99, 45) !important;
+  position: fixed# !important;
+  left: 44%;
 }
   .how-hex:before{
     

@@ -52,17 +52,18 @@ if(document.addEventListener ){
    aLoader = [
       { load: "edge_includes/jquery-2.0.3.min.js"},
       { load: "edge_includes/edge.3.0.0.min.js"},
-      { load: "Scene-5_edge.js"},
-      { load: "Scene-5_edgeActions.js"}];
+      { load: "js/scroll_activated.js", user: true },
+      { load: "FullScene-2_edge.js"},
+      { load: "FullScene-2_edgeActions.js"}];
 
 if (AdobeEdge.bootstrapLoading) { signaledLoading = true; AdobeEdge.loadResources=doLoadResources; AdobeEdge.playWhenReady=playWhenReady; }
 
 loadResources(aLoader, doDelayLoad);
 
-var plSTF="none",ctrPlS="none",minPlW="0",maxPlW=undefined,plWidth="550px",plHeight="500px";
+var plSTF="none",ctrPlS="horizontal",minPlW="0",maxPlW=undefined,plWidth="800px",plHeight="400px";
 
 preContent={dom: [ ]};//simpleContent
 
 dlContent={dom: [ ]};//simpleContent
 
-})( "EDGE-954150874");
+})( "EDGE-8740435547");
