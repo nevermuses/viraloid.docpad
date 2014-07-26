@@ -1,4 +1,5 @@
 $(function(){
+  
   $("#stage").toggle();
   $(".hex-btn-space").on('click', function(){
     $("#head").slideToggle();
