@@ -101,7 +101,7 @@ title: 'Home'
   
   <!-- Animation -->
   <div class="pure-g-r infographic">
-  <div class="scroll"> <img src="/images/scroll.png"> </div>
+  <div class="scroll"> <img src="images/scroll.png"> </div>
     <div class="pure-u-1 stage-one">
       <!-- <span class="diamond"> </div>
       <span class="step">
