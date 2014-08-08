@@ -31,7 +31,7 @@ a{
 
 .infographic{
   margin: auto;
-  width: 57%;
+  width: 100%;
 }
 
 .step{
@@ -69,8 +69,12 @@ a{
 }
 
 .stage-one{
-  margin: 55px auto 122px;
+  margin:0 auto;
+  margin-bottom: 122px;
+  margin-top: 144px;
   text-align: center;
+  display:block;
+  width: 65%;
 }
   .stage-one span{
     color: #fff;
@@ -80,7 +84,7 @@ a{
     color: #fff;
     text-align: center;
     width: 745px;
-    margin: 399px 0 0 0;
+    margin: 399px auto 0;
   }
 
 .header {

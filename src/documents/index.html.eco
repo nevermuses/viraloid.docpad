@@ -105,8 +105,10 @@ title: 'Home'
       <!-- <span class="diamond"> </div>
       <span class="step">
       </span> -->
+	  
       <%- @partial("edge-stage") %>
         <h3 class="scroll"> scroll </h3>
     </div>
+  </div>
   </div>
   <!-- Animation end -->
