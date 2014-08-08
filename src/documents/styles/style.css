@@ -71,7 +71,7 @@ a{
 .stage-one{
   margin:0 auto;
   margin-bottom: 122px;
-  margin-top: 144px;
+  margin-top: 300px;
   text-align: center;
   display:block;
   width: 65%;
@@ -80,11 +80,19 @@ a{
     color: #fff;
   }
   .scroll{
-    position: absolute;
+    position: fixed;
     color: #fff;
     text-align: center;
-    width: 745px;
-    margin: 399px auto 0;
+    width: 100%;
+	margin:0 auto;
+	margin-top:100px;
+	text-align:center;
+  }
+  .scroll img{
+  height:100px;
+  width:auto;
+  display:block;
+  margin:0 auto;
   }
 
 .header {
