@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Viraloid</title>
+	<link href="http://viraloid.net/atom.xml" rel="self"/>
+	<link href="http://viraloid.net"/>
+	<updated>2014-08-12T13:20:38.211Z</updated>
+	<id>http://viraloid.net</id>
+	<author>
+		<name>Mikeumus</name>
+		<email>mike@betabulls.com</email>
+	</author>
+
+	
+		<entry>
+			<title>This is a Goodbye Blog Post</title>
+			<link href="http://viraloid.net//posts/bye"/>
+			<updated>2014-08-12T12:20:26.000Z</updated>
+			<id>http://viraloid.net//posts/bye</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Goodbye Blog Post | Viraloid&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Mikeumus&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.69.0&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://googledrive.com/host/0B92YJK5CJQemNHdJYksyZXBTekk/favicon.ico&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://yui.yahooapis.com/pure/0.4.2/pure-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;//fonts.googleapis.com/css?family=Open+Sans&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
+
+	&lt;!--[if IE]&gt;
+		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;styles/ie.css&quot;&gt;
+	&lt;![endif]--&gt;
+	
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;!-- Markup --&gt;
+	&lt;div class=&quot;pure-u-1&quot;&gt;
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+		&lt;h1&gt;This is a Goodbye Blog Post&lt;/h1&gt;
+		&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+	&lt;/article&gt;
+
+	&lt;footer&gt;
+		
+	&lt;/footer&gt;
+&lt;/div&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>This is a Hello Blog Post</title>
+			<link href="http://viraloid.net//posts/hello"/>
+			<updated>2014-08-12T12:20:26.000Z</updated>
+			<id>http://viraloid.net//posts/hello</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Hello Blog Post | Viraloid&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Mikeumus&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.69.0&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://googledrive.com/host/0B92YJK5CJQemNHdJYksyZXBTekk/favicon.ico&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://yui.yahooapis.com/pure/0.4.2/pure-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;//fonts.googleapis.com/css?family=Open+Sans&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
+
+	&lt;!--[if IE]&gt;
+		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;styles/ie.css&quot;&gt;
+	&lt;![endif]--&gt;
+	
+&lt;/head&gt;
+&lt;body&gt;
+
+	&lt;!-- Markup --&gt;
+	&lt;div class=&quot;pure-u-1&quot;&gt;
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+		&lt;h1&gt;This is a Hello Blog Post&lt;/h1&gt;
+		&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a hello &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+	&lt;/article&gt;
+
+	&lt;footer&gt;
+		
+	&lt;/footer&gt;
+&lt;/div&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>
