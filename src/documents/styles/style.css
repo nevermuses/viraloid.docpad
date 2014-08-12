@@ -96,17 +96,7 @@ a{
   margin:0 auto;
   }
   
-  @media only screen and (max-width: 1000px) {
-		.myContainer, .scroll{
-		display:none !important;
-		}
-	  }
-	  
-	    @media only screen and (min-width: 1001px) {
-		.mobileShots{
-		display:none !important;
-		}
-	  }
+
 
 .header {
 	margin: 0 0;
@@ -806,7 +796,7 @@ body .primary-button {
 }
 .how-hex{
   margin: -9px auto 0 auto !important;
-  background: rgb(234, 99, 45) !important;
+  background: none !important;
   position: fixed !important;
   left: 44%;
 }
@@ -1107,3 +1097,23 @@ hr {
 		padding: 0;
 	}
 }
+
+
+  .mobileShots{
+  margin-top:-130px;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+		.myContainer, .scroll{
+		display:none !important;
+		}
+		.how-hex{
+		background-color:none !important;
+		}
+	  }
+	  
+	    @media only screen and (min-width: 1001px) {
+		.mobileShots{
+		display:none !important;
+		}
+	  }

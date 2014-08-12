@@ -46,7 +46,7 @@ title: 'Home'
 	</header>
 	
 	<!-- How it Works button -->
-	<div class="hexagon hex-btn-space"> <div class="hexagon hex-btn"> <span>HOW IT WORKS</span>  </div> </div>
+		<div class="hexagon hex-btn-space"> <div class="hexagon hex-btn"> <span>HOW IT WORKS</span>  </div> </div>
   
 	<section class="body pure-g-r">
 		<div class="inner">
